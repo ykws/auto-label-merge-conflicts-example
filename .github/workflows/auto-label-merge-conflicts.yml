@@ -3,8 +3,6 @@ name: auto-label-merge-conflicts
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   build:
