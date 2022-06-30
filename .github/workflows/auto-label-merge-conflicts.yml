@@ -2,7 +2,7 @@ name: auto-label-merge-conflicts
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "**" ]
 
 jobs:
   build:
